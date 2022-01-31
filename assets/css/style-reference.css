@@ -1,0 +1,131 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.title{
+    text-align: center;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8em;
+    color: black;
+}
+.container{
+    margin: 1em;
+    padding-bottom: 3em;
+}
+.tableContainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+.source{
+    color: #123e6b;
+    font-size: 1.5em;
+    height: 50px;
+    width: 20%;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.link{
+    color: #123e6b;
+    font-size: 1.5em;
+    height: 50px;
+    width: 15%;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.description{
+    color: #123e6b;
+    font-size: 1.5em;
+    height: 50px;
+    width: 30%;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.element{
+    color: #123e6b;
+    font-size: 1.5em;
+    height: 50px;
+    width: 35%;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.column1{
+    width: 15%;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.column2{
+    width: 15%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.column3{
+    width: 35%;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.column4{
+    position: relative;
+    width: 15em;
+    height: 15em;
+}
+.column4 img{
+    max-width: 14em;
+    max-height: 14em;
+}
+.facebook{
+    background-image: url(../images/bethany/facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 40px;
+}
+.adobe-spark{
+    background-image: url(../images/bethany/adobe-spark.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 40px;
+}
+
+
+/* slideshow arrows */
+/* https://www.w3schools.com/howto/howto_js_slideshow.asp */
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    color: black;
+    display: flex;
+}
+
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+  /* On hover, add a grey background color */
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}

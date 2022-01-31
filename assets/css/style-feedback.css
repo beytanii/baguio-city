@@ -1,0 +1,67 @@
+
+/*
+body area or content 
+**/ 
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.underline{
+    margin: 0;
+    text-align: center;
+    float: center;
+    padding: 1em;
+    position: relative;
+    font-size: 2em;
+}
+.subContainer{
+    padding: 1em;
+}
+.formContainer{
+    background-color: #f7f7f7;
+    border-radius: 1em;
+
+}
+/** input and titles **/
+.inputBox{
+    width: 20em;
+    height: 2em;
+    padding: 1%;
+    margin: 2%;
+}
+.title{
+    position: relative;
+    display: block;
+    font-size: 1.2em;
+}
+/** submit button**/
+.submitBttn{
+    background-color: #d8d8d8;
+    border: none;
+    border-radius: .5em;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    font-size: 1em;
+}
+.bttnHolder{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 5em;
+}
+/** thank you message**/
+.thankyou{
+    align-self: center;
+    margin: 2em;
+    display:flex;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../images/thankyou.png);
+    background-position: center;
+}
+.text{
+    font-size: 1.5em;
+}

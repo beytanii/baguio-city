@@ -1,0 +1,44 @@
+.locals{
+    flex: 1;
+    background-image: url(../images/cedric-mabanglo/cedric-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.content-text {
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+.content-text a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5em;
+    color: black;
+}
+.content-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.layer-grid{
+    display: flex;
+}
+.img-third{
+    padding: 10px;
+    width: 100%;
+}

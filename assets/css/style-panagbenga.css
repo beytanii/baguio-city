@@ -1,0 +1,81 @@
+
+.panagbenga{
+    flex: 1;
+    background-image: url('../images/philippine-star/philippine-star-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+.container-half{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.half-image{
+    flex: 1;
+    height: 100%;
+    height: 850px;
+}
+.half-text{
+    flex: 1;
+    text-align: center;
+    margin: 3em;
+}
+.half-text a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8em;
+    color: black;
+}
+.half-text p{
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;    
+    text-align: left;
+}
+.container-gray{
+    display: flex;
+    align-items: center;
+    background-color: #dcdcdc;
+}
+.container-trio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.container-trio-text{
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+.container-trio-text a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5em;
+    color: black;
+}
+.trio-pic{
+    display: flex;
+}
+.slide{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.img-third{
+    padding: 20px;
+}
